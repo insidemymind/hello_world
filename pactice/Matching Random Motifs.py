@@ -10,7 +10,7 @@ count_cg = 0
 for sub in string:
     if sub == "A" or sub == "T":
         count_at += 1
-    else:
+    elif  sub == "C" or sub == "G":
         count_cg += 1
 
 print count_at, count_cg, n, gccontent
