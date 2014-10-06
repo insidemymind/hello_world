@@ -36,6 +36,7 @@ def perm(lst, n):
 def different_perm(lst, n):
     """
     permutation with repeat.
+    this is not correct. don't use this one.
     """
     length = len(lst)
     if n == 1:
